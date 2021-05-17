@@ -17,7 +17,14 @@
     </picture>
     <h1>Reproduzindo audio em HTML5</h1>
     <p>Vamos aprender a reproduzir áudios!</p>
-    <audio src="midia/18- Bandido de 18 - Saci.mp3" controls autoplay></audio>
-    
+    <audio id="myAudio" src="midia/18- Bandido de 18 - Saci.mp3" controls autoplay></audio>
+     <video id="myVideo" src="midia/y2meta.com - Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp4" controls></video>
+     
+     <script>
+         var vid = document.getElementById("myVideo");
+        vid.volume = 0.05;
+        var vid = document.getElementById("myAudio");
+        vid.volume = 0.05;
+     </script>
 </body>
 </html>
