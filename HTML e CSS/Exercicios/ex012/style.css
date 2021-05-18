@@ -19,6 +19,8 @@ h1{
 }
 
 h2{
-    color: rgb(175, 64, 64);]
-    
+    color: rgb(175, 64, 64);
+}
+.botao{
+    float: right;
 }
