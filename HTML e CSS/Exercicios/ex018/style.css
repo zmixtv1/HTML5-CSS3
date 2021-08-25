@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    width: 50%;
+    border-style: double;
+    margin: 100px auto 100px;
+    padding: 50px;
+
+}
+
+body > h1,h2{
+    text-align: center;
+}
+body > p {
+    font-family: cursive;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
