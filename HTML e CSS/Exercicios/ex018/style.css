@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 body{
     font-family: sans-serif;
     width: 50%;
@@ -14,12 +18,17 @@ body > p {
     font-family: cursive;
     font-size: 1.1em;
     text-decoration: underline;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 h1{
     font-style: italic;
     font-weight: bolder;
     font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fredericka the Great', cursive;
+}
 
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2em;
 }
