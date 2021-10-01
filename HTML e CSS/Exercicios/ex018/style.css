@@ -32,3 +32,8 @@ h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 2em;
 }
+
+p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
