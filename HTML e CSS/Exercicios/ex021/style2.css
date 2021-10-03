@@ -47,12 +47,12 @@ main{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
 }
 article{
-    background-color: lightblue;
+    background-color: rgba(142, 204, 204, 0.322);
 
 }
 
 article > aside{
-    background-color:rgb(125, 192, 214) ;
+    background-color:rgba(103, 129, 138, 0.288) ;
 }
 
 footer{
