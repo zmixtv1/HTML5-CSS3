@@ -1,18 +1,14 @@
+body{
+    background-color: darkgrey;
+}
 h1{
     background-color: lightgray;
     height: 100px;
     width: 400px;
-
     border: 10px solid darkcyan;
-
     padding: 10px 20px;
-
-    margin: 20px 20px 40px 20px;
-    
-
-    outline-width: 5px;
-    outline-style: outset;
-    outline-color: aqua;
+    margin: 40px auto;
+    outline: 5px dashed salmon;
 }
 
 a{
