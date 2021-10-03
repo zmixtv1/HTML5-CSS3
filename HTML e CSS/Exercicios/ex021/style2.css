@@ -40,10 +40,11 @@ nav > a:hover{
     text-decoration: underline;
 }
 main{
-    border-radius: 8px;
+    border-radius: 15px 0px;
     background-color: white;
     padding: 10px;
     margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
 }
 article{
     background-color: lightblue;
