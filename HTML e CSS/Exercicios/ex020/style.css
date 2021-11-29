@@ -2,9 +2,9 @@ div{
     display: inline-block;
     background-color: lightgray;
     text-align: center;
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
+    height: 585px;
+    width: 424px;
+    border: 5px solid black;
 }
 
 div:hover{
