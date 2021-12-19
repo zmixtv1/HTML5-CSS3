@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header > p {
+    padding-bottom: 50px;
+}
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vh;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+section > p{
+    padding: 80px;
+    font-size: 3.5vh;
+    font-family: var(--fonte3);
+}
+.imagem{
+    color: white;
+}
+
+#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
