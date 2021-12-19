@@ -3,6 +3,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+}
+body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
 }
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,9 +26,22 @@ header > p {
 }
 header > h1 {
     padding-top: 50px;
-    font-size: 10vh;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-variant-ligatures: normal;
+    font-variant-caps: small-caps;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-family: var(--fonte1);
+    font-size: 10vw;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 a{
     font-weight: bolder;
@@ -32,11 +51,22 @@ a{
 p > a:hover{
     text-decoration: underline;
 }
-section > p{
-    padding: 80px;
-    font-size: 3.5vh;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+
 .imagem{
     color: white;
 }
@@ -45,7 +75,12 @@ section > p{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: max-content;
+    padding: 15px;
 }
 #imagem2{
     background-image: url(imagens/background002.jpg);
