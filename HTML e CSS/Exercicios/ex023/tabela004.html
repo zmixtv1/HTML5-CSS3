@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            max-width: 700px;
+
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th,td{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        td:hover {
+            background-color: white;
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition-duration: 0.8s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <table>
+                <caption>
+                    Filmes favoritos
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Grupos</th>
+                        <th>Nomes</th>
+                        <th colspan="3">Filmes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="3">Mulheres</th>
+                        <td>Ana Maria Santos</td>
+                        <td>Alien <br><img width="60px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/15/05/14/21/14/504650.jpg" alt=""></td>
+                        <td>Rambo <br> <img width="68px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/19/08/12/22/46/1191330.jpg" alt=""></td>
+                        <td>Vingadores <br><img width="60px" style="border-radius: 10px;" src="https://br.web.img2.acsta.net/medias/nmedia/18/89/43/82/20052140.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz Souza</td>
+                        <td>Hulk <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/210/485/21048566_20131010182211313.jpg" alt=""></td>
+                        <td>Inception <br> <img width="60px" style="border-radius: 10px;" src="https://i.pinimg.com/originals/87/52/6e/87526e2aadea4980e7c416206c13b2aa.jpg" alt=""></td>
+                        <td>Batman <br><img width="60px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Cláudia Melo</td>
+                        <td>Oblivion <br> <img width="60px" style="border-radius: 10px;" src="https://dvdefilme.files.wordpress.com/2015/04/oblivion-capa-02-filme-dvd.jpg" alt=""></td>
+                        <td>Matrix <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG" alt=""></td>
+                        <td>Big Hero <br> <img width="60px" style="border-radius: 10px;" src="http://4.bp.blogspot.com/-9oOk0KMry34/VQ8DrUxApjI/AAAAAAAAFuQ/FscofwYfCvA/s1600/big-hero-6-poster-historia-camundongo.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Homens</th>
+                        <td>Bruno mendonça</td>
+                        <td>Intocáveis <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img2.acsta.net/medias/nmedia/18/89/89/00/20143859.jpg" alt=""></td>
+                        <td>Amnésia <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/15/06/22/16/07/149915.jpg" alt=""></td>
+                        <td>Gladiador <br> <img width="60px" style="border-radius: 10px;" src="https://i.pinimg.com/originals/61/bc/08/61bc08610beb8befd7c8fb42da180933.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Lourenço</td>
+                        <td>Wall-E <br> <img width="60px" style="border-radius: 10px;" src="https://upload.wikimedia.org/wikipedia/pt/3/30/WALL-E.jpg" alt=""></td>
+                        <td>Oldboy <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img2.acsta.net/pictures/15/07/20/20/30/209828.jpg" alt=""></td>
+                        <td>Dangal <br> <img width="60px" style="border-radius: 10px;" src="https://br.web.img3.acsta.net/pictures/16/12/16/16/37/089198.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Fabiano Mota</td>
+                        <td>Star wars 5 <br> <img width="60px" style="border-radius: 10px;" src="https://i.pinimg.com/736x/c4/fc/4a/c4fc4a914b60c74b036f56aea0c80594--star-wars-episodes-the-empire-strikes-back.jpg" alt=""></td>
+                        <td>Taxi Driver <br> <img width="60px" style="border-radius: 17px;" src="https://upload.wikimedia.org/wikipedia/pt/3/33/Taxi_Driver_%281976_film_poster%29.jpg" alt=""></td>
+                        <td>Toy Story <br> <img width="60px" style="border-radius: 10px;" src="https://upload.wikimedia.org/wikipedia/pt/a/a7/Toy_Story_1995.jpg" alt=""></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
